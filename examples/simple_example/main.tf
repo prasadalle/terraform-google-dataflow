@@ -18,7 +18,6 @@ provider "google" {
   version = "~> 2.18.0"
   region  = var.region
 }
-
 resource "random_id" "random_suffix" {
   byte_length = 4
 }
